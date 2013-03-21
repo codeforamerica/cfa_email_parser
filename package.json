@@ -1,0 +1,15 @@
+{
+    "name": "email_parse",
+    "version": "0.0.1",
+    "private": false,
+    "dependencies": {
+      "connect": "2.7.3",
+      "request": "2.16.6",
+      "js-yaml": "2.0.3"
+    },
+    "engines": {
+        "node": "0.8.x",
+        "npm": "1.1.x"
+    },
+    "license": "MIT"
+}

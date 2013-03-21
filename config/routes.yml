@@ -1,0 +1,2 @@
+routes:
+  louisville-jail-reports-daily@parse.codeforamerica.org: http://cfa-lvl-api.herokuapp.com/v1/jail-reports-daily
