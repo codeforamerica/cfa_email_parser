@@ -4,7 +4,7 @@ This is a service that receives email for your application over SMTP, parses it 
 ## How to use
 Edit `config/routes.yml` and add a line that looks like this:
 
-   `louisville-jail-reports@parse.codeforamerica.org: http://yourapp.com/some/path/that/you/define`
+   `louisville-jail-reports@parser.codeforamerica.org: http://yourapp.com/some/path/that/you/define`
 
 Make sure that the recipient email address used in the line above is unique to your application and isn't already taken.
 
