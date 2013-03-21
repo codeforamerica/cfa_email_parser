@@ -7,6 +7,7 @@ var fs = require('fs'),
 
 var app = connect()
   .use(connect.urlencoded())
+  .use(connect.logger())
   .use(function(req, res) {
 
     if ((req.method == 'POST') && (req.url == '/v1/emails/sendgrid')) {
