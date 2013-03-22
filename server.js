@@ -12,6 +12,8 @@ var app = connect()
 
     if ((req.method == 'POST') && (req.url == '/v1/emails/sendgrid')) {
 
+      console.log(req.body)
+
       var recipient = req.body.to
       var appPostUrl = routes[recipient]
 
