@@ -8,7 +8,7 @@ The first thing you will need is an email address where your city agency can sen
 
 Next you will need to define an HTTP API resource that can accept POST requests with `Content-Type: application/www-form-urlencoded`. This POST request will contain the contents of the email, but parsed into [various fields](http://sendgrid.com/docs/API_Reference/Webhooks/parse.html#-Parameters).
 
-Finally, you will need to associate the email address you chose with the URI of the HTTP API resource you created. This association is made in the `config/routes.yml` file, by adding a line that looks like this:
+Finally, you will need to associate the email address you chose with the URI of the HTTP API resource you created. This association is made in the `config/routes.yml` file (in this project), by adding a line that looks like this:
 
    `louisville-jail-reports@parser.codeforamerica.org: http://yourapp.com/resource/to/handle/parsed/email`
 
