@@ -7,6 +7,7 @@ var fs = require('fs'),
 
 var app = connect()
   .use(connect.urlencoded())
+  .use(connect.multipart())
   .use(connect.logger())
   .use(function(req, res) {
 
