@@ -4,7 +4,7 @@ This is a service that receives email for your application over SMTP, parses it 
 ## How to use
 Lets say you want your application to receive email, perhaps a report that is being emailed out by a city agency once a week.
 
-The first thing you will need is an email address where your city agency can send their weekly report email. You can choose an email address that looks like <something>@parser.codeforamerica.org, where <something> is unique and specific to your application (e.g. louisville-jail-reports@parser.codeforamerica.org).
+The first thing you will need is an email address where your city agency can send their weekly report email. You can choose an email address that looks like `<something>@parser.codeforamerica.org`, where `<something>` is unique and specific to your application (e.g. louisville-jail-reports@parser.codeforamerica.org).
 
 Next you will need to define an HTTP API resource that can accept POST requests with `Content-Type: application/www-form-urlencoded`. This POST request will contain the contents of the email, but parsed into [various fields](http://sendgrid.com/docs/API_Reference/Webhooks/parse.html#-Parameters).
 
