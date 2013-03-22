@@ -13,7 +13,7 @@ var app = connect()
 
     if ((req.method == 'POST') && (req.url == '/v1/emails/sendgrid')) {
 
-      var recipient = req.body.to
+      var recipient = req.body.to.replace(/<.*>/, '').trim()
       var appPostUrl = routes[recipient]
 
       console.log(recipient + " ---> " + appPostUrl)
