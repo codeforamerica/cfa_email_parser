@@ -5,7 +5,8 @@
     "dependencies": {
       "connect": "2.7.3",
       "request": "2.16.6",
-      "js-yaml": "2.0.3"
+      "js-yaml": "2.0.3",
+      "async": "0.2.6"
     },
     "engines": {
         "node": "0.8.x",
