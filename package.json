@@ -6,8 +6,8 @@
     "async": "0.2.6",
     "js-yaml": "2.0.3",
     "request": "2.16.6",
-    "requireindex": "1.0.0"
-    "restify": "2.3.4",
+    "requireindex": "1.0.0",
+    "restify": "2.3.4"
   },
   "engines": {
     "node": "0.8.x",
